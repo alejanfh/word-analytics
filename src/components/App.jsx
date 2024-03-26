@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-import Stats from './Stats'
-import Textarea from './Textarea'
-import Footer from './Footer'
-import Main from './Main'
 import Header from './Header'
+import Main from './Main'
+import Textarea from './Textarea'
+import Stats from './Stats'
+import Footer from './Footer'
 
 function App() {
   const [stats, setStats] = useState({
