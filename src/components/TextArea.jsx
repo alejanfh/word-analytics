@@ -13,7 +13,7 @@ export default function Textarea({ setStats }) {
     // extract text from event
     let text = e.target.value
 
-    // example of input validation
+    // example of input validatio
     if (text.includes('<script>')) {
       setWarning("You can't use <script> in your text.")
       text = text.replace('<script>', '')
