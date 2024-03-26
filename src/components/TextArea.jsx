@@ -29,7 +29,7 @@ export default function Textarea({ setStats }) {
       numberOfWords: text.split(' ')[0] === '' ? 0 : text.split(' ').length,
       numberOfCharacters: text.length,
       instagramCharactersLeft: INSTAGRAM_MAX_CHARACTERS - text.length,
-      facebookCharactersLeft: TWITTER_MAX_CHARACTERS - text.length,
+      twitterCharactersLeft: TWITTER_MAX_CHARACTERS - text.length,
     })
   }
 

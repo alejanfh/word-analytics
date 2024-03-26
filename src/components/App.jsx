@@ -11,7 +11,7 @@ function App() {
     numberOfWords: 0,
     numberOfCharacters: 0,
     instagramCharactersLeft: 280,
-    facebookCharactersLeft: 2200,
+    twitterCharactersLeft: 2200,
   })
 
   return (
